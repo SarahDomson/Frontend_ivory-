@@ -11,21 +11,76 @@ ul {
     display: flex;
     justify-content: right;
     align-items: center;
-    gap: 50px;
-    margin: 10px;
-    padding: 10px;
+    gap: 40px;
+    margin: 20px;
+    padding: 20px;
+}
+
+main {
+    align-items: center;
+    padding: 80px;
+    margin: 20px;
 }
 
 li {
-   
-    color: #21243D;
+    list-style: none;
+    cursor: pointer;
+    color: #000000;
+    font-weight: 500;
     font-size: 20px;
-    font-weight: bold;
 }
 
-ul li a {
-    cursor: pointer;
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    align-items: center;
+    margin-bottom: 50px;
 }
+
+h1 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    line-break: 1.5;
+    color: #21243D;
+    margin-bottom: 30px;
+}
+
+.break {
+    display: block;
+    color: #21243D;
+}
+
+.hero_intro p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+    color: #21243D;
+    margin-bottom: 40px;
+}
+
+.hero_intro button {
+    background-color: #FF6464;
+    width: 180px;
+    height: 38px;
+    border: none;
+}
+
+.hero_intro a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+}
+
+.profile_img img {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+}
+
+
 
 
 /* ul li:nth-of-type(2) {
