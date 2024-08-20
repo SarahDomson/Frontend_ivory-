@@ -34,6 +34,7 @@ li {
     gap: 400px;
     align-items: center;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 h1 {
@@ -75,8 +76,55 @@ h1 {
 .profile_img img {
     width: 300px; 
     height: 300px; 
-    border-radius: 50%; 
+    border-radius: 50%;
 }
+
+.section2 {
+    background-color: #EDF7FA;
+}
+
+.recent_view {
+    display: flex;
+    justify-content: space-around;
+    gap: 340px;
+    
+}
+
+.recent_view p {
+    font-size: 22px;
+    font-weight: 400;
+    columns: #21243D;
+}
+
+.recent_view a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #00ABCC;
+}
+
+.recent_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+}
+
+.text-cards {
+    background-color: #FFFFFF;
+    width: 450px;
+    height: 300px;
+    border-radius: 4px;
+    box-shadow: #BBE1FA;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 26px;
+    font-weight: 700;
+    line-break: 1;
+}
+
+
 
 
 
