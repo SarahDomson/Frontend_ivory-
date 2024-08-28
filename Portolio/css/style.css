@@ -93,7 +93,7 @@ h1 {
 .recent_view p {
     font-size: 22px;
     font-weight: 400;
-    columns: #21243D;
+    color: #21243D;
 }
 
 .recent_view a {
@@ -117,12 +117,30 @@ h1 {
     border-radius: 4px;
     box-shadow: #BBE1FA;
     margin-bottom: 20px;
+    padding: 20px;
 }
 
 h4 {
     font-size: 26px;
     font-weight: 700;
-    line-break: 1;
+}
+
+.card-text {
+    display: flex;
+    gap: 30px;
+    margin: 10px 0;
+}
+
+.card-text p {
+    font-size: 18px;
+    color: #21243D;
+    margin-top: 20px;
+}
+
+.text-cards > p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 30px;
 }
 
 
