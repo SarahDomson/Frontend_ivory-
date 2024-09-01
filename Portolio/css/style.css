@@ -28,6 +28,10 @@ li {
     cursor: pointer;
 }
 
+li:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;}
+
 .hero {
     display: flex;
     justify-content: center;
