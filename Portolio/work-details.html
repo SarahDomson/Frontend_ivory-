@@ -20,64 +20,74 @@
       <!-- LinkedIn Profile -->
       <meta property="og:see_also" content="https://www.linkedin.com/in/sarah-domson-5749661a9/"">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/work-details.css">
-    <script src="https://kit.fontawesome.com/08c1badfaf.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+    </style>
 </head>
-<body>
-    <header>
-        <a href="blogs.html"><li>blogs</li></a>
-        <a href="works.html">works</a>
-        <a href="contact.html"><li>contact</li></a>
-    </header>
+<body class="container mx-auto font-heebo">
+    <header class="p-6 flex justify-end mx-auto">
+        <svg class="sm:hidden" width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+        <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+        <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+    </svg>
 
-    <section>
-        <h4>Designing Dashboards with usability in mind</h4>
+    <nav class="hidden md:block px-2"> 
+        <ul  class="flex justify-between gap-4 font-medium">
+            <li><a href="blogs.html" class="text-lg hover:underline decoration-blue-500 decoration-2 cursor-pointer">Blog</a></li>
+            <li><a href="works.html" class="text-lg text-orange-500 hover:underline decoration-blue-500 decoration-2 cursor-pointer">Works</a></li>
+            <li><a href="#" class="text-lg hover:underline decoration-blue-500 decoration-2 cursor-pointer">Contact</a></li>
+        </ul>
+    </nav>
+    </header><br><br>
 
-        <div class="main-div">
- 
-            <div class="btn-text">
-                <div>
-                    <button>2020</button>
-                </div>
-                <div>
-                    <p>Dashboard, User Experience Design</p>
-                </div>
-            </div>
-
+    <main class="p-4 container mx-auto mt-8">
+        <div>
             <div>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-            </div>
-
-            <div class="img-div">
+                <h1 class="text-4xl font-bold">Designing Dashboards with usability in mind</h1>
+                <div class="flex gap-4 items-center my-3">
+                    <div><p class="bg-[#FF7C7C] font-bold px-2 py-1 rounded-full text-sm text-white">2020</p></div>
+                    <div><p>Dashboard, User Experience Design</p></div>
+                </div>
+                <p class="text-base font-normal">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia <br> consequat duis enim velit mollit. 
+                    Exercitation veniam consequat sunt nostrud amet.
+                </p>
                 <img src="./image/Work1.png" alt="dashboard">
             </div>
 
-            <div>
-                <h3>Heading 1</h3>
-                <h4>Heading 2</h4>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-               
-                <div class="img-div">
-                    <img src="./image/Work2.png" alt="red-car">
-                </div>
+            <div class="mt-8">
+                <p class="text-3xl font-bold mb-4">Heading 1</p>
+                <p class="text-2xl font-semibold mb-4">Heading 2</p>
+                <p class="text-base font-normal mb-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia <br> consequat duis enim velit mollit. 
+                    Exercitation veniam consequat sunt nostrud amet.
+                </p>
+                <img src="./image/Work2.png" alt="red-car">
             </div>
 
-            <div class="img-div">
-                <img src="./image/Work3.png" alt="">
+            <div>
+                <img src="./image/Work3.png" alt="order-dashboard" class="mt-8">
             </div>
         </div>
-       </section>
     </main>
 
-     <!-- Footer -->
-     <footer>
-        <div>
-            <a href="https://www.linkedin.com/in/sarah-domson-5749661a9/"><i class="fa-brands fa-linkedin"></i> </a>
-            <a href="https://x.com/Praba___Ama"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="https://github.com/SarahDomson"><i class="fa-brands fa-github"></i></a>
-            <p>Copyright &#169;2020. All rights reserved</p>
-        </div>
- </footer>
-
+<footer class="mt-16 mb-16 text-center text-gray-600">
+    <div class="flex justify-center gap-5">
+        <a href="#" class="text-gray-800 cursor-pointer text-2xl">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" class="text-gray-800 cursor-pointer text-2xl">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="text-gray-800 cursor-pointer text-2xl">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="text-gray-800 cursor-pointer text-2xl">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </div>
+    <p class="mt-4">© 2020 All rights reserved</p>
+</footer>
 </body>
 </html>
